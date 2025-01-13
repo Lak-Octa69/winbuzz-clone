@@ -198,7 +198,7 @@ cursor: pointer;
   }
   .nav{
     width: auto;
-    overflow: hidden;
+    overflow: auto;
     white-space: nowrap;
     display: flex;
   }
