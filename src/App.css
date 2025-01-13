@@ -198,12 +198,13 @@ cursor: pointer;
   }
   .nav{
     width: auto;
-    overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
     display: flex;
   }
   .nav ul li{
     width: auto;
     margin-right: 7%;
+    overflow-y: scroll;
   }
 }
