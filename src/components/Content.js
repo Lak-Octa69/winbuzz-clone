@@ -7,6 +7,11 @@ import i5 from "../assests/Image/i5.webp"
 import i6 from "../assests/Image/i6.webp"
 import i7 from "../assests/Image/i7.webp"
 import i8 from "../assests/Image/i8.webp"
+import p1 from "../assests/Image/pg1.webp"
+import p2 from "../assests/Image/pg2.webp"
+import p3 from "../assests/Image/pg3.webp"
+import p4 from "../assests/Image/pg4.webp"
+import p5 from "../assests/Image/pg5.webp"
 
 function Content() {
   return (
@@ -69,7 +74,13 @@ function Content() {
         </div>
         <div className='right'>
             <div className='head'><h5>Play Game</h5></div>
-            <div className='Writ'></div>
+            <div className='writ'>
+            <img className='imgc58' src={p1}></img>  
+            <img className='imgc58' src={p2}></img>
+            <img className='imgc58' src={p3}></img>
+            <img className='imgc58' src={p4}></img>
+            <img className='imgc58' src={p5}></img>
+            </div>
         </div>
     </div>
 

@@ -108,7 +108,7 @@ cursor: pointer;
 .right{
   float: right;
   width: 20%;
-  height: 90vh;
+  height: 50vh;
   background-color: white;
   border: 1px ridge black;
    border-radius: 6px 6px 0 0;
@@ -154,15 +154,17 @@ cursor: pointer;
   width: 100% !important;
   height: 60vh;
 }
-
-@keyfra1mes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.writ{
+  height: 45vh; 
+  overflow: auto;
 }
+.imgc58{
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 90%;
+  border: #282c34 solid 1px;
+}
+
 
 /* mobile */
 
