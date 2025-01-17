@@ -199,7 +199,10 @@ cursor: pointer;
 }
 /* mobile */
 
-@media (max-width:768px){
+@media (max-width:480px){
+  .img04{
+    width: 100%;
+  }
   .pv2{
     height: 5vh;
   }
