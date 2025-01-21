@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/winbuzz-clone/static/css/main.5b2b3ad2.css",
-    "main.js": "/winbuzz-clone/static/js/main.41e16498.js",
+    "main.css": "/winbuzz-clone/static/css/main.0af7b3b6.css",
+    "main.js": "/winbuzz-clone/static/js/main.397f8954.js",
     "static/media/i2.gif": "/winbuzz-clone/static/media/i2.45925f8374974e07ab8f.gif",
     "static/media/i1.gif": "/winbuzz-clone/static/media/i1.32a27881d8d8e2d0c6ad.gif",
     "static/media/i3.webp": "/winbuzz-clone/static/media/i3.cbe95bb615077c28a7f1.webp",
@@ -11,6 +11,7 @@
     "static/media/i4.webp": "/winbuzz-clone/static/media/i4.132bdfdba0b8be476745.webp",
     "static/media/pg4.webp": "/winbuzz-clone/static/media/pg4.7484ef2c92f3e86b2b84.webp",
     "static/media/pg1.webp": "/winbuzz-clone/static/media/pg1.6ca25dc051636cc7d17a.webp",
+    "static/media/wal-log.jpg": "/winbuzz-clone/static/media/wal-log.c98f7fd5c136dd228a3f.jpg",
     "static/media/i6.webp": "/winbuzz-clone/static/media/i6.d8381690d1725c4a7097.webp",
     "static/media/p24.webp": "/winbuzz-clone/static/media/p24.6dd0f78c94eb68760657.webp",
     "static/media/p27.webp": "/winbuzz-clone/static/media/p27.96bd4e2d40ccb181b554.webp",
@@ -26,11 +27,11 @@
     "static/media/p21.webp": "/winbuzz-clone/static/media/p21.13883473458042123923.webp",
     "static/media/logo.svg": "/winbuzz-clone/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/winbuzz-clone/index.html",
-    "main.5b2b3ad2.css.map": "/winbuzz-clone/static/css/main.5b2b3ad2.css.map",
-    "main.41e16498.js.map": "/winbuzz-clone/static/js/main.41e16498.js.map"
+    "main.0af7b3b6.css.map": "/winbuzz-clone/static/css/main.0af7b3b6.css.map",
+    "main.397f8954.js.map": "/winbuzz-clone/static/js/main.397f8954.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b2b3ad2.css",
-    "static/js/main.41e16498.js"
+    "static/css/main.0af7b3b6.css",
+    "static/js/main.397f8954.js"
   ]
 }
