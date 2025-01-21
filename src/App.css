@@ -144,6 +144,22 @@ cursor: pointer;
   width: auto;
   height: 11vh;
 }
+.modal-content{
+  background-image: url("./assests/Image/wal-log.jpg") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.lb{
+  width: 60%;
+  margin-top: 1%;
+  background-color: #b88831 !important;
+  border: 1px solid white !important;
+}
+.pe{
+  color: white;
+}
 .r1 img{
   border: 5px solid white;
   height: 10vh;
@@ -196,6 +212,16 @@ cursor: pointer;
 }
 .imglogoin{
   height: 4vh;
+}
+.tps{
+  background-color: #b88831;
+}
+.mre{
+  color: white;
+}
+.lk{
+  color: white !important;
+  text-decoration: none;
 }
 /* mobile */
 

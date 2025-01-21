@@ -1,12 +1,6 @@
 import React from 'react'
-import i1 from "../assests/Image/i1.gif"
-import i2 from "../assests/Image/i2.gif"
-import i3 from "../assests/Image/i3.webp"
-import i4 from "../assests/Image/i4.webp"
-import i5 from "../assests/Image/i5.webp"
-import i6 from "../assests/Image/i6.webp"
-import i7 from "../assests/Image/i7.webp"
-import i8 from "../assests/Image/i8.webp"
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import p1 from "../assests/Image/pg1.webp"
 import p2 from "../assests/Image/pg2.webp"
 import p3 from "../assests/Image/pg3.webp"
@@ -20,24 +14,28 @@ import p25 from "../assests/Image/p25.webp"
 import p26 from "../assests/Image/p26.webp"
 import p27 from "../assests/Image/p27.webp"
 import p28 from "../assests/Image/p28.webp"
-import g1 from "../assests/Image/in-play.png"
-import Content2 from './Content2'
+import Home from './Home';
+import Page2 from './Page2';
+
+
+
 
 function Content() {
   return (
     <div className='wrapper'>
         <div className='nav'>
             <ul>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions" >Cricket</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Football</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Tennis</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Pro</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Casino</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">int Casino</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Sports book</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Horse Racing</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Binary</li>
-                <li data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Volleyball</li>
+                
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Cricket</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Football</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Tennis</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Pro</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Casino</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >int Casino</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Sports book</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Horse Racing</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Binary</Link></li>
+                <li><Link to="/winbuzz-clone/page2"  className='lk' >Volleyball</Link></li>
             </ul>
         </div>
         <div className='left'>
@@ -68,169 +66,36 @@ function Content() {
                 </ul>
         </div>
         <div className='mid'>
-            <div className='imgc'>
-                <div className='r1'>
-                <img src={i1}></img>
-                <img src={i2}></img>
-                <img src={i3}></img>
-                <img src={i4}></img>
-                </div>
-                <div className='r2'>
-                <img src={i5}></img>
-                <img src={i6}></img>
-                <img src={i7}></img>
-                <img src={i8}></img>
-                </div>
+            <Routes>
+                <Route path='/winbuzz-clone/' element={<Home/>} />
+                <Route path='/winbuzz-clone/page2' element={<Page2/>} />
+            </Routes>
             </div>
-            <div className='game'>
-                <h5> <img className='imglogoin' src={g1}></img> INPLAY</h5>
-                <div className='he'>Cricket</div>
-                <table class="table">
-                        <tbody>
-                            <tr>
-                            <th scope="row">Twenty20 big bash</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Asutralia women vs England Women</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Pakistan vs West Indies</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Newzealand T10</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Sharjan Warriours</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Durban Super Giants</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                </table>
-                <div className='he'>Football</div>
-                <table class="table">
-                        <tbody>
-                            <tr>
-                            <th scope="row">Twenty20 big bash</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Asutralia women vs England Women</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Pakistan vs West Indies</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Newzealand T10</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Sharjan Warriours</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Durban Super Giants</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                </table>
-                <div className='he'>Tennis</div>
-                <table class="table">
-                        <tbody>
-                            <tr>
-                            <th scope="row">Twenty20 big bash</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Asutralia women vs England Women</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Pakistan vs West Indies</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Newzealand T10</th>
-                            <td></td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Sharjan Warriours</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <td>@fat</td>
-                            </tr>
-                            <tr>
-                            <th scope="row">Durban Super Giants</th>
-                            <td colspan="2">Larry the Bird</td>
-                            <td>@twitter</td>
-                            </tr>
-                        </tbody>
-                </table>
-                <Content2/>
-            </div>
-        </div>
         <div className='rm'>
         <div className='right'>
             <div className='head'><h5>Play Game</h5></div>
                 <div className='writ'>
-                    <img className='imgc58' src={p1}></img>  
-                    <img className='imgc58' src={p2}></img>
-                    <img className='imgc58' src={p3}></img>
-                    <img className='imgc58' src={p4}></img>
-                    <img className='imgc58' src={p5}></img>
+                    <img className='imgc58'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p1}></img>  
+                    <img className='imgc58'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p2}></img>
+                    <img className='imgc58'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p3}></img>
+                    <img className='imgc58'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p4}></img>
+                    <img className='imgc58'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p5}></img>
                 </div>
         </div>
         <div className='right e'>
             <div className='head'><h5>Play Game</h5></div>
                 <div className='writ'>
-                    <img className='img8' src={p21}></img>  
-                    <img className='img8' src={p22}></img>
-                    <img className='img8' src={p23}></img>
-                    <img className='img8' src={p24}></img>
-                    <img className='img8' src={p25}></img>
-                    <img className='img8' src={p26}></img>
-                    <img className='img8' src={p27}></img>
-                    <img className='img8' src={p28}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p21}></img>  
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p22}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p23}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p24}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p25}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p26}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p27}></img>
+                    <img className='img8'  data-bs-toggle="modal" data-bs-target="#exampleModal" src={p28}></img>
                 </div>
         </div>
         </div>  
-        
-    
     </div>
 
   )
