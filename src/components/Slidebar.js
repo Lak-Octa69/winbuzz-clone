@@ -16,15 +16,15 @@ function Slidebar() {
         <div className='left bt7'>
               
                <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Cricket</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Football</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Tennis</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Pobuttontics</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Casino</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Int Casino</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Sports book</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Horse Racing</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Binary</button></Link>
-               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Volleyball</button></Link>
+               <Link to="/winbuzz-clone/page3"><button className="btn btn-primary bt7" type="button">Football</button></Link>
+               <Link to="/winbuzz-clone/page4"><button className="btn btn-primary bt7" type="button">Tennis</button></Link>
+               <Link to="/winbuzz-clone/page5"><button className="btn btn-primary bt7" type="button">Pobuttontics</button></Link>
+               <Link to="/winbuzz-clone/page6"><button className="btn btn-primary bt7" type="button">Casino</button></Link>
+               <Link to="/winbuzz-clone/page7"><button className="btn btn-primary bt7" type="button">Int Casino</button></Link>
+               <Link to="/winbuzz-clone/page8"><button className="btn btn-primary bt7" type="button">Sports book</button></Link>
+               <Link to="/winbuzz-clone/page9"><button className="btn btn-primary bt7" type="button">Horse Racing</button></Link>
+               <Link to="/winbuzz-clone/page10"><button className="btn btn-primary bt7" type="button">Binary</button></Link>
+               <Link to="/winbuzz-clone/page11"><button className="btn btn-primary bt7" type="button">Volleyball</button></Link>
               
         </div>
         </div>

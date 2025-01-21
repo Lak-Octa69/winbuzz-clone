@@ -24,6 +24,15 @@ import i7 from "../assests/Image/i7.webp"
 import i8 from "../assests/Image/i8.webp"  
 import Home from './Home';
 import Page2 from './Page2';
+import Pg3 from './Pg3';
+import Pg4 from './Pg4';
+import Pg5 from './Pg5';
+import Pg6 from './Pg6';
+import Pg7 from './Pg7';
+import Pg8 from './Pg8';
+import Pg9 from './Pg9';
+import Pg10 from './Pg10';
+import Pg11 from './Pg11';
 
 
 
@@ -35,15 +44,15 @@ function Content() {
             <ul>
                 
                 <li><Link to="/winbuzz-clone/page2"  className='lk' >Cricket</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Football</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Tennis</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Pro</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Casino</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >int Casino</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Sports book</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Horse Racing</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Binary</Link></li>
-                <li><Link to="/winbuzz-clone/page2"  className='lk' >Volleyball</Link></li>
+                <li><Link to="/winbuzz-clone/page3"  className='lk' >Football</Link></li>
+                <li><Link to="/winbuzz-clone/page4"  className='lk' >Tennis</Link></li>
+                <li><Link to="/winbuzz-clone/page5"  className='lk' >Pro</Link></li>
+                <li><Link to="/winbuzz-clone/page6"  className='lk' >Casino</Link></li>
+                <li><Link to="/winbuzz-clone/page7"  className='lk' >int Casino</Link></li>
+                <li><Link to="/winbuzz-clone/page8"  className='lk' >Sports book</Link></li>
+                <li><Link to="/winbuzz-clone/page9"  className='lk' >Horse Racing</Link></li>
+                <li><Link to="/winbuzz-clone/page10"  className='lk' >Binary</Link></li>
+                <li><Link to="/winbuzz-clone/page11"  className='lk' >Volleyball</Link></li>
             </ul>
         </div>
         <div className='left'>
@@ -92,6 +101,15 @@ function Content() {
             <Routes>
                 <Route path='/winbuzz-clone/' element={<Home/>} />
                 <Route path='/winbuzz-clone/page2' element={<Page2/>} />
+                <Route path='/winbuzz-clone/page3' element={<Pg3/>} />
+                <Route path='/winbuzz-clone/page4' element={<Pg4/>} />
+                <Route path='/winbuzz-clone/page5' element={<Pg5/>} />
+                <Route path='/winbuzz-clone/page6' element={<Pg6/>} />
+                <Route path='/winbuzz-clone/page7' element={<Pg7/>} />
+                <Route path='/winbuzz-clone/page8' element={<Pg8/>} />
+                <Route path='/winbuzz-clone/page9' element={<Pg9/>} />
+                <Route path='/winbuzz-clone/page10' element={<Pg10/>} />
+                <Route path='/winbuzz-clone/page11' element={<Pg11/>} />
             </Routes>
             </div>
         <div className='rm'>
