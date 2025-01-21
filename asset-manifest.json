@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/winbuzz-clone/static/css/main.fa4aa195.css",
+    "main.css": "/winbuzz-clone/static/css/main.6534670d.css",
     "main.js": "/winbuzz-clone/static/js/main.bca4f702.js",
     "static/media/i2.gif": "/winbuzz-clone/static/media/i2.45925f8374974e07ab8f.gif",
     "static/media/i1.gif": "/winbuzz-clone/static/media/i1.32a27881d8d8e2d0c6ad.gif",
@@ -26,11 +26,11 @@
     "static/media/p25.webp": "/winbuzz-clone/static/media/p25.88d78a0c9a80377d53e7.webp",
     "static/media/p21.webp": "/winbuzz-clone/static/media/p21.13883473458042123923.webp",
     "index.html": "/winbuzz-clone/index.html",
-    "main.fa4aa195.css.map": "/winbuzz-clone/static/css/main.fa4aa195.css.map",
+    "main.6534670d.css.map": "/winbuzz-clone/static/css/main.6534670d.css.map",
     "main.bca4f702.js.map": "/winbuzz-clone/static/js/main.bca4f702.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa4aa195.css",
+    "static/css/main.6534670d.css",
     "static/js/main.bca4f702.js"
   ]
 }
