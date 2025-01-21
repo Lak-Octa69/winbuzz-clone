@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Slidebar() {
   return (
@@ -13,17 +14,18 @@ function Slidebar() {
         </div>
         <div className="offcanvas-body">
         <div className='left bt7'>
-                
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Cricket</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Football</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Tennis</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Pobuttontics</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Casino</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Int Casino</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Sports book</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Horse Racing</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Binary</button>
-                <button className="btn btn-primary bt7" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Volleyball</button>
+              
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Cricket</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Football</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Tennis</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Pobuttontics</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Casino</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Int Casino</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Sports book</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Horse Racing</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Binary</button></Link>
+               <Link to="/winbuzz-clone/page2"><button className="btn btn-primary bt7" type="button">Volleyball</button></Link>
+              
         </div>
         </div>
         </div>

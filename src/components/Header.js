@@ -8,7 +8,7 @@ function Header() {
     <div>
             <nav className="navbar bg-body-tertiary">
     <div className="container-fluid bg-1">
-        <a className="navbar-brand"> <img className='pv2' src={img1}/> </a>
+    <Link to="/winbuzz-clone/" className='lk' > <img className='pv2' src={img1}/> </Link>
         <form className="d-flex fr" role="search">
         <Link to="/winbuzz-clone/" className='lk' >
             <button type="button" className="btn btn-outline-success pt">

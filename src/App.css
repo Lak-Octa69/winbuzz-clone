@@ -223,6 +223,33 @@ cursor: pointer;
   color: white !important;
   text-decoration: none;
 }
+.p2{
+  height: 3vh;
+  color: black !important;
+  border: 1px solid black !important;
+  font-size: .7rem !important;
+  margin-left: 5%;
+}
+.td{
+  background-color: pink !important;
+  border-radius: 12px;
+  width: 5%;
+}
+.td1{
+  background-color: lightblue !important;
+  border-radius: 12px;
+  width: 5%;
+}
+.st{
+  width: 20% !important;
+  float: left;
+}
+.fp{
+  float: left;
+  width: 80% !important;
+  margin-bottom: 3%;
+}
+
 /* mobile */
 
 @media (max-width:480px){
@@ -230,7 +257,7 @@ cursor: pointer;
     width: 100%;
   }
   .pv2{
-    height: 5vh;
+    height: 4.5vh !important;
   }
   .bg-6{
     display:none !important; 

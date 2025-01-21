@@ -14,6 +14,14 @@ import p25 from "../assests/Image/p25.webp"
 import p26 from "../assests/Image/p26.webp"
 import p27 from "../assests/Image/p27.webp"
 import p28 from "../assests/Image/p28.webp"
+import i1 from "../assests/Image/i1.gif"
+import i2 from "../assests/Image/i2.gif"
+import i3 from "../assests/Image/i3.webp"
+import i4 from "../assests/Image/i4.webp"
+import i5 from "../assests/Image/i5.webp"
+import i6 from "../assests/Image/i6.webp"
+import i7 from "../assests/Image/i7.webp"
+import i8 from "../assests/Image/i8.webp"  
 import Home from './Home';
 import Page2 from './Page2';
 
@@ -66,6 +74,21 @@ function Content() {
                 </ul>
         </div>
         <div className='mid'>
+            
+        <div className='imgc'>
+                <div className='r1'>
+                <img src={i1}></img>
+                <img src={i2}></img>
+                <img src={i3}></img>
+                <img src={i4}></img>
+                </div>
+                <div className='r2'>
+                <img src={i5}></img>
+                <img src={i6}></img>
+                <img src={i7}></img>
+                <img src={i8}></img>
+                </div>
+            </div>
             <Routes>
                 <Route path='/winbuzz-clone/' element={<Home/>} />
                 <Route path='/winbuzz-clone/page2' element={<Page2/>} />

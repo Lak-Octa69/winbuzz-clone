@@ -24,7 +24,13 @@ function Signup() {
                         <input type="text" className="form-control" id="exampleInputPassword1" placeholder='Username'/>
                     </div>
                     <div className="mb-3">
-                        <input type="tel" className="form-control" id="exampleInputPassword1" maxLength={10} placeholder='Phone no.'/>
+                        <select class="form-select st" aria-label="Default select example">
+                            <option selected>Select</option>
+                            <option value="1" >India</option>
+                            <option value="2">Usa</option>
+                            <option value="3">China</option>
+                        </select>
+                        <input type="tel" className="form-control fp" id="exampleInputPassword1" maxLength={10} placeholder='Phone no.'/>
                     </div>
                     <div className="mb-3">
                         <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder='Email address'/>
